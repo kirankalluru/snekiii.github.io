@@ -1,0 +1,419 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:ital,wght@0,100;0,400;1,300&family=Raleway&display=swap'); */
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+    left: 50px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: rgba(70, 192, 219, 0.915);
+    width: 100%;
+    height: 80px;
+    
+
+}
+.nav-items a{
+ display:inline-flex;
+margin-left: 25px;
+margin-top: 30px;
+text-decoration: none;
+color: black;
+align-items: center;
+margin-right: 90px;
+padding: 15px;
+background-color: rgba(255, 255, 255, 0.186);
+border-radius: 9px;
+
+
+
+}
+a i{
+    margin-right: 5px;
+    color: rgb(228, 234, 236);
+    cursor: pointer;
+}
+
+.logo{
+    
+    
+   height: 80px;
+   border-radius:40px;
+   cursor: pointer;
+
+}
+.title{
+    
+    
+    margin-top:25px;
+    margin-left: 3px;
+    margin-right: auto;
+}
+.hotel-showcase{
+    position: relative;
+    width: 100%;
+    height: 350px; 
+    background-color: blueviolet;
+}
+.hotel-showcase img{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+.text-block{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.268);
+    color: rgba(255, 255, 255, 0.848);
+    padding: 30px;
+    bottom: 30%;
+    left: 35%;
+    border-radius: 10px;
+}
+.text-block h4{
+    font-size: 50px;
+    color: cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-block p{
+    font-size: 20px;
+    color: rgba(255, 255, 0, 0.593);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.roombook-section{
+    display: flex;
+    height: 505px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.roombook-section form{
+    background-color: aquamarine;
+    align-items: center;
+    width: 600px;
+   padding: 20px 30px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+  
+}
+.roombook-section form .form-details{
+    display: flex;
+  flex-wrap: wrap;
+}
+.roombook-section form .user-details{
+ position: relative;
+ left: 100px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border:none;
+}
+
+.submit-btn{
+    position: relative;
+    left: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.user-details .form-details{
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form .submit-btn{
+    height: 45px;
+    width: 300px;
+    margin: 35px 0px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.roombook-section .form-boy{
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px #a001c6 solid ;
+}
+.roombook-section .flight-img{
+    width: 230px;
+    position: relative;
+    right: 1015px;
+    bottom: 40px;
+    border-radius: 50%;
+}
+
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #1391aa;
+    margin: 10px 0px;
+}
+.footer center{
+   color: #20ead6;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+hr{
+    border: 1px #a001c6 solid;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.services .service-card{
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(185deg,#9a27c7,#71b7e6);
+    position: relative;
+    margin: 20px 0px;
+    cursor: pointer;
+    
+
+    }
+.service-card{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+}
+.service-card .service-item{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item i{
+    font-size:40px;
+}
+.service-item p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.slider{
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+}
+
+.slider .slider-container{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 400px;
+    background:linear-gradient(175deg,#9b59b6,#71b7e6);
+    align-items: center;
+    justify-content: center;
+}
+.slider-container #slider-img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.slider-container #prev-btn{
+    background-color: rgba(255, 255, 255, 0.253);
+    position: relative;
+    left: 13px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.slider-container #next-btn{
+    position: relative;
+    right: 13px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+.slider .slider-container-lobby{
+position: relative;
+float: left;
+    display: flex;
+    width: 50%;
+    height: 400px;
+    background:linear-gradient(185deg,#9b59b6,#71b7e6);
+    align-items: center;
+    justify-content: center;
+}
+.slider-container-lobby #slider-lobby-img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.slider-container-lobby #prev-lobby-btn{
+    background-color: rgba(255, 255, 255, 0.253);
+    position: relative;
+    left: 13px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.slider-container-lobby #next-lobby-btn{
+    position: relative;
+    right: 13px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* sidebar styling */
+
+.menu {
+    background:linear-gradient(135deg,#fc0851,#00f355fa);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    display: none;
+    z-index: 1;
+    box-shadow: 0px 5px 10px black;
+    animation: slideMenu 1s ease-in-out;
+}
+
+@keyframes slideMenu {
+0% {
+transform: translateX(-100%);
+}
+
+50% {
+transform: translateX(0%);
+}
+
+100% {
+transform: translateX(0%);
+}
+
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-options a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+
+.menu-options a:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+
+#close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    z-index: 1;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.profile .sidebarlogo{
+    
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px rgb(233, 233, 10) solid ;
+    margin-bottom: 5px;
+
+}
+.profile p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

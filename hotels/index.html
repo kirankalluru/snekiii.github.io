@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoo rooms.kl</title>
+    <link rel="icon" type="image/x-icon" href="./logo-0.png">
+    <link rel="stylesheet" href="./hotel.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Montserrat:ital,wght@0,100;0,400;1,300&family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+   <div class="btn">
+        <i class="fa-solid fa-bars" style="cursor: pointer; font-size: 25px;" id="menu-btn" onclick="myOpen()"></i>
+    </div>
+    <div class="menu">
+        <i class="fa-solid fa-circle-xmark" id="close-btn" onclick="myClose()"></i>
+        <div class="menu-options">
+          <div class="profile">
+        <img class="sidebarlogo" src="./kiranlogo.jpeg" alt="logo">
+        <p>k.lakshm kiran</p>
+      </div>
+        <a href="">home</a>
+        <a href="">login</a>
+        <a href="">sign up</a>
+        <a href="">bookings</a>
+        </div>
+    </div>
+  
+  
+    <nav>
+
+       
+        <div class="flex relative">
+          <img class="logo" src="puli.png" alt="logo">
+      <h1 class="title">SNEKIII!</h1>
+        </div>
+      
+      <div class="nav-items">
+        <a href="#"><i class="fa-solid fa-house"></i>home</a>
+        <a href="#"><i class="fa-solid fa-users"></i>about</a>
+        <a href="#"><i class="fa-solid fa-truck-fast"></i>tracking</a>
+        <a href="#"><i class="fa-solid fa-phone"></i>contact</a>
+        <a href="#"><i class="fa-solid fa-baby-carriage"></i>baby care</a>
+      </div>
+
+    </nav>
+  </div>
+  
+   <div class="hotel-showcase">
+    <img src="hotelimage.png" alt="">
+    <div class="text-block">
+        <h4>Book Any Hotels</h4>
+        <br>
+        <p>have a look on beautiful hotels</p>
+    </div>
+   </div>
+   <div class="slider">
+    <div class="slider-container">
+        <button id="prev-btn" onclick="previous()">&lt;</button>
+        <img id="slider-img" src="images/room1.jpg" alt="">
+        <button id="next-btn" onclick="next()">&gt;</button>
+    </div>
+
+    <div class="slider-container-lobby">
+      <button id="prev-lobby-btn" onclick="previouslobby()">&lt;</button>
+      <img id="slider-lobby-img" src="lobbyimg/lobby1.jpeg" alt="">
+      <button id="next-lobby-btn" onclick="nextlobby()">&gt;</button>
+  </div>
+
+
+    
+</div>
+   <div class="roombook-section">
+    <form action="#">
+       <div class="user-details">
+        <span class="form-details">IN-DATE</span><input name="indate" type="date">
+        <span class="form-details">OUT-DATE</span><input name="outdate" type="date">
+          <span class="form-details">ADULTS</span><input name="adults" type="number">
+            <span class="form-details">CHILDREN</span><input name="children" type="number">
+              <span class="form-details">E-MAIL</span><input name="email" placeholder="@gmail.com" type="email">
+       </div>
+      <input class="submit-btn" value="Book now" type="submit">
+      
+    </form>
+    <img class="form-boy" src="https://img.freepik.com/free-vector/forms-concept-illustration_114360-4917.jpg?w=2000" alt="form">
+    <img class="flight-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEdWguVDoqPJZpLdi3V0rrOv8cEdkPTLXLA&usqp=CAU" alt="flight">
+   </div>
+
+ 
+
+
+   <div class="footer">
+    <center><h2>OUR SERVICES</h2></center>
+    <hr>
+    <div class="services">
+    <div class="service-card">
+      <div class="service-item">
+      <i class="fa-solid fa-champagne-glasses"></i>
+      <p>drinks</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-bowl-rice"></i>
+      <p>food</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-person-biking"></i>
+      <p>fitness</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-spa"></i>
+        <p>beauty</p>
+    </div>
+
+    
+    </div>
+
+   
+  </div>
+
+
+
+  <div class="services">
+    <div class="service-card">
+      <div class="service-item">
+      <i class="fa-solid fa-champagne-glasses"></i>
+      <p>drinks</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-bowl-rice"></i>
+      <p>food</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-person-biking"></i>
+      <p>fitness</p>
+    </div>
+
+    
+    </div>
+
+    <div class="service-card">
+      <div class="service-item">
+        <i class="fa-solid fa-spa"></i>
+        <p>beauty</p>
+    </div>
+
+    
+    </div>
+
+   
+  </div>
+   
+   </div>
+   <script src="hotel.js"></script>
+</body>
+</html>
